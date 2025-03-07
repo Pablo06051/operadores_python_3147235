@@ -8,6 +8,9 @@ siguen el siguiente orden jerarquico
 3. / , * , %
 4. + , -
 5. =
+6. NOT
+7. AND
+8. OR
 
 NOTA#1
 Si hay operaciones en el mismo nivel de jerarquia,
@@ -45,7 +48,7 @@ JERARQUIA DE OPERADORES
 5. < , > , >= , <= , != , ==
 6. =
 '''
-a=2
+'''a=2
 b=3
 c=7
 x=5
@@ -54,5 +57,26 @@ h=1
 y = c / (x + 2) < c * a - c + 1 - b * 2
 
 print(y)
+'''
+
+'''
+operadores logicos:
+
+los operadores logicos son:
+
+and, or, not
+obedecen las tablas de verdad:
+
+'''
+
+op1 = False
+op2 = True
+op3 = op1 and op2
+print (op3)
+
+# operador not
+
+op4 = not op1 
+print (op4)
 
 
