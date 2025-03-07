@@ -7,10 +7,13 @@ siguen el siguiente orden jerarquico
 2. **
 3. / , * , %
 4. + , -
-5. =
-6. NOT
-7. AND
-8. OR
+5. <, >
+6. <=, =>
+7. !=
+8. ==
+9. NOT
+10. AND
+11. OR
 
 NOTA#1
 Si hay operaciones en el mismo nivel de jerarquia,
